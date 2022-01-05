@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h2 {
+        color: rgb(241, 238, 238);
+      }
+      form {
+        border: 7px solid black;
+        width: 65%;
+        margin-left: 10%;
+      }
+      input[type="text"] {
+        border-bottom: 5px solid rgb(26, 24, 24);
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+        position: relative;
+        left: 50px;
+        font-family: "The Nautigal", cursive;
+        font-size: x-large;
+        font-weight: bolder;
+      }
+
+      .adress {
+        padding: top 10px;
+        width: 80%;
+      }
+      .subscribe {
+        font-weight: bold;
+        position: relative;
+        left: 50px;
+        bottom: 100px;
+      }
+      .city {
+        position: relative;
+        left: 5px;
+        top: 9px;
+      }
+      .state {
+        position: relative;
+        top: -46px;
+        left: 250px;
+      }
+      .zip {
+        position: relative;
+        right: -550px;
+        top: -120px;
+      }
+
+      .fnametext {
+        position: relative;
+        left: 50px;
+        top: 28px;
+        margin: top 10px;
+      }
+      .lnametext {
+        position: relative;
+        left: 400px;
+        top: -75px;
+        padding-right: 50px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html">WAY TO QUESTIONS PAGE</a>
+    <div class="container">
+      <form action="">
+        <h2 style="background-color: red" align="center">
+          Yes! I want to subscribe to Mag-O-zine
+        </h2>
+        <div class="fnametext">
+          <input type="text" value="Joe" class="fname" /><br />
+          <label for="" style="padding-left: 50px">Fist Name</label>
+        </div>
+        <br />
+        <div class="lnametext">
+          <input type="text" value="Schmeggie" class="fname" /><br />
+          <label for="" style="padding-left: 50px"> Last name</label>
+        </div>
+        <br />
+        <div class="adress">
+          <input type="text" value="1001 Washington Street" class="adress" />
+          <br />
+          <label for="" style="padding-left: 50px">Address</label>
+        </div>
+        <br />
+
+        <br />
+        <div class="city">
+          <input type="text" value="Austin" /><br />
+          <label for="" style="padding-left: 50px">City</label>
+        </div>
+        <div class="state">
+          <input type="text" value="A" /><br />
+          <label for="" style="padding-left: 50px">State</label>
+        </div>
+
+        <br />
+        <div class="zip">
+          <input type="text" value="99999" /><br />
+          <label for="" style="padding-left: 50px">Zip</label><br />
+        </div>
+        <div class="subscribe">
+          Subscribe for:
+          <input type="checkbox" />1 year($19.91) <input type="checkbox" />2
+          years($35.00)
+          <br />
+          Send me information about: <br />
+          <input type="checkbox" />
+          Computer-Zine <br />
+          <input type="checkbox" />
+          Fishing-Zine <br />
+          <input type="checkbox" />
+          Cai-O-Zine
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
